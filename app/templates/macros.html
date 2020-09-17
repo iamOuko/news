@@ -14,3 +14,25 @@
 {% endfor %}
 
 {% endmacro %}
+
+{% macro displaySourceArticles(articles) %}
+
+<h2>Articles</h2>
+
+
+{% for article in articles%}
+<div class="row">
+    <div class="col-md-3">
+        <a href="{{article.url}}"> Read More</button></a>
+
+
+
+
+    </div>
+
+
+</div>
+{% endfor %}
+
+
+{% endmacro %}
